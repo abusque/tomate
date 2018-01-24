@@ -33,7 +33,7 @@ To install Tomate manually from source, the steps are as follows:
 
 .. code-block:: sh
 
-   git clone git@github.com/abusque/tomate.git
+   git clone git@github.com:abusque/tomate.git
    cd tomate
    sudo ./setup.py install
 
