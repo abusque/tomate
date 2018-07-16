@@ -1,0 +1,12 @@
+#!/bin/sh
+
+while true; do
+    if pgrep -x tomate > /dev/null ; then
+        # Print tomato emoji
+        echo 🍅
+    else
+        echo " "
+    fi
+
+    sleep 2
+done
