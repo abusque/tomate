@@ -1,4 +1,9 @@
-#!/bin/sh
+#!/bin/bash
+
+if [ -f /usr/lib/bash/sleep ]; then
+    # Enable bash built-in sleep.
+    enable -f /usr/lib/bash/sleep sleep
+fi
 
 while true; do
     if pgrep -x tomate > /dev/null ; then
